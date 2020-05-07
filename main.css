@@ -73,9 +73,10 @@ table {
 
 #box-05 {
   background-color: aqua;
+  border-radius: 15px;
 }
 
-#box-06 {
+/*#box-06 {
   background-color: steelblue;
 }
 
@@ -85,16 +86,16 @@ table {
 
 #profile-picture {
   background-color: lawngreen;
-}
+}*/
 
 /*====BASE LAYOUT STYLES====*/
 * {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 .container {
-  width: 70vw;
-  height: 100vh;
+  width: 65vw;
+  height: calc(100vh - 40px);
   margin: 20px auto;
   position: relative;
 }
@@ -111,7 +112,7 @@ table {
 }
 
 #box-02 {
-  top: 250px;
+  top: 220px;
   left: 50px;
   margin: 10px;
   padding: 10px;
@@ -120,7 +121,7 @@ table {
 }
 
 #box-03 {
-  top: 390px;
+  top: 360px;
   left: 50px;
   margin: 10px;
   padding: 10px;
@@ -129,7 +130,7 @@ table {
 }
 
 #box-04 {
-  top: 530px;
+  top: 500px;
   left: 50px;
   margin: 10px;
   padding: 10px;
@@ -168,4 +169,87 @@ table {
   padding: 10px;
   width: 170px;
   height: 220px
+}
+
+/*====BASE STYLES====*/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  letter-spacing: 1px;
+  line-height: 1.3;
+  background: url(assets/5J36JOB.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Lora', serif;
+  font-family: 'Old Standard TT', serif;
+}
+
+#zebra {
+  width: 100%;
+  height: 170px;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+}
+
+#profile-pic {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border: 2px dashed dimgray;
+  background-color: gold;
+  padding: 3px;
+  filter: grayscale(100%);
+}
+
+#profile-pic:hover {
+  transform: scale(1.2);
+  filter: grayscale(50%);
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 22px;
+  font-weight: 900;
+  text-align: center;
+  padding: 2px;
+}
+
+#location {
+  font-family: 'Old Standard TT', serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 5px;
+}
+
+#box-07 {
+  background-color: rgba(255, 226, 36, 0.9);
+  border-radius: 5px;
+  border-bottom: 3px solid dimgray;
+  border-right: 3px solid dimgray;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  font-size: 18px;
+}
+
+li {
+  display: inline;
+  padding: 5px;
+}
+
+.white {
+  color: white;
+}
+
+i:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(8px 8px 8px white);
 }
