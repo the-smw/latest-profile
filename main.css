@@ -1,4 +1,4 @@
-/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+/*==== A SIMPLE CSS RESET FROM ERIC MEYER ====*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -51,7 +51,7 @@ table {
 
 
 /*====HELPER COLORS====*/
-.container {
+/*.container {
   background-color: plum;
 }
 
@@ -76,7 +76,7 @@ table {
   border-radius: 15px;
 }
 
-/*#box-06 {
+#box-06 {
   background-color: steelblue;
 }
 
@@ -117,7 +117,7 @@ table {
   margin: 10px;
   padding: 10px;
   width: 40%;
-  height: 100px;
+  height: 110px;
 }
 
 #box-03 {
@@ -126,7 +126,7 @@ table {
   margin: 10px;
   padding: 10px;
   width: 40%;
-  height: 100px;
+  height: 120px;
 }
 
 #box-04 {
@@ -135,7 +135,7 @@ table {
   margin: 10px;
   padding: 10px;
   width: 40%;
-  height: 100px;
+  height: 120px;
 }
 
 #box-05 {
@@ -150,7 +150,7 @@ table {
   margin: 10px;
   padding: 10px;
   width: 170px;
-  height: 80px;
+  height: 60px;
 }
 
 #box-07 {
@@ -252,4 +252,57 @@ li {
 i:hover {
   transform: scale(1.2);
   filter: drop-shadow(8px 8px 8px white);
+}
+
+.first {
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Lora', serif;
+  color: white;
+}
+
+.info {
+  font-size: 17px;
+  line-height: 1.1;
+  font-family: 'Old Standard TT', serif;
+  color: white;
+}
+
+#box-02, #box-03, #box-04 {
+  background-color: dimgray;
+  border-bottom: 5px dotted white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#school {
+  color: gold;
+  text-decoration: none;
+}
+
+#school:hover {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+#lang {
+  text-align: right;
+  padding: 15px;
+  font-weight: 900;
+}
+
+.lang {
+  text-decoration: none;
+  color: white;
+}
+
+.lang:hover {
+  color: gold;
 }
